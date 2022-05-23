@@ -1,22 +1,24 @@
 # The Design-O-Matic
 
-Example of the output:
+### Example of the output:
 
 ![Design-O-Matic Output Example](http://www.jvzdesigns.com/images/get_automating.jpg "Design-O-Matic Output Example")
 
-The Design-O-Matic
+### Youtube video of Design-O-Matic in action
 
-Basic description:
+[![Design-O-Matic Output Example and Link to Youtube Video](https://img.youtube.com/vi/sq1aM_eeNy4/0.jpg)](https://www.youtube.com/watch?v=sq1aM_eeNy4)
+
+## Basic description:
 
 Takes a template image (see above) and applies a user selected word to create a new design (using GIMP and Python Fu), then automatically uploads to Amazon Merch and completes the entire form filling process using auto-generated SEO titles and descriptions to fill in the relevant fields. It then automatically edits the design images to make them web-friendly, creates a web page for them to be displayed on using the Jinja 2 library, and uploads everything. The only user input is vetting the verbs to be used at the start of the process.
 
-Detailed description of Design, The O-Matic and Everything:
+## Detailed description of Design, The O-Matic and Everything:
 
 Disclaimer: This is my first big project using Python and I've tried to stick to conventions and use helpful descriptions etc. but I've been self taught by an idiot.
 
 This version of the Design-O-Matic works on Windows and uploads to Amazon Merch. I've tweaked versions of the script to work on Ubuntu and the Raspberry Pi, and they do!
 
-What it does:
+### What it does:
 
 Adds a new word to a base template image to create a new design.
 
@@ -26,7 +28,7 @@ Automatically creates SEO titles and descriptions to fill in the relevant fields
 
 Publishes the design and generates web pages to promote it on my website.
 
-I think the script can be (relatively) easily amended to work on other Print on Demand site and the actual designs generated can be a great deal more creative and original as they are only limited by what YOU can create in GIMP.
+I think the script can be (relatively) easily amended to work on other Print on Demand sites and the actual designs generated can be a great deal more creative and original as they are only limited by what YOU can create in GIMP.
 
 Before running the script you need to choose how many designs you want to generate, in this case the number of verbs to add to a list. This is done at the start of the "while loop" in the design_o_matic.py file.
 
