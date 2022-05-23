@@ -1,0 +1,1 @@
+This folder would hold the filtered information from the 'word_sorter.py' (csv files in this case) and is updated and uploaded to ensure the design-o-matic is not looking at the same list of verbs everytime it is run.
