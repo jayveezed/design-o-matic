@@ -1,4 +1,4 @@
-# The Design-o-matic
+# The Design-O-Matic
 
 Example of the output:
 
