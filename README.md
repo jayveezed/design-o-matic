@@ -1,4 +1,9 @@
 # design-o-matic
+
+Example of the output:
+
+![Design-O-Matic Output Example](http://www.jvzdesigns.com/images/get_automating.jpg "Design-O-Matic Output Example")
+
 The Design-O-Matic
 
 Basic description:
