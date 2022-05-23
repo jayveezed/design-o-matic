@@ -1,0 +1,1 @@
+This folder would hold the optimised images (in their own folder) created as part of running the web_page_maker.py... but you have to come up with your own idea and populate the folders with your designs.
